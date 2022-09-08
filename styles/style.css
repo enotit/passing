@@ -1,0 +1,64 @@
+/*
+ * This code was written by enotit.
+ * distribution/modification/copying is free (but please mention me).
+ * t.me/enotit 9.2022
+ *
+ */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+*:focus {
+    outline: 0 !important;
+}
+
+.header_block {
+    width: 100vw;
+    height: 10vh;
+    background-color: darkcyan;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 0px 13px 13px;
+    -webkit-box-shadow: 0px 19px 69px 6px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 19px 69px 6px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 19px 69px 6px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.header_part {
+    color: white;
+}
+
+.left_header_block {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.center_header_block {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 5vh;
+    transition: all 650ms;
+    flex-grow: 2;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+.center_header_block:hover {
+    text-shadow: black 7px -2px;
+    letter-spacing: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right_header_block {
+    flex-grow: 1;
+    text-align: center;
+    width: 30vw;
+}
